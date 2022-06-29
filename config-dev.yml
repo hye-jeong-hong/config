@@ -8,3 +8,9 @@ posco:
     url: jdbc:mysql:/localhost:3306/test?Unicode=true&useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Seoul
     username: root
     password: 1234
+
+spring:
+  datasource:
+      url: jdbc:mysql:/localhost:3306/test?Unicode=true&useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Seoul
+      username: root
+      password: '{cypher}b69a1316ebee0e6bde8bd2a964ef7362b182566e78fcfc5b0cad3324a6ed59af'
